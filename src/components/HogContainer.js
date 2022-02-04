@@ -4,10 +4,10 @@ import HogTile from './HogTile'
 export default function HogContainer({ hogData }) {
 
     return (
-        <div>
+        <div className="ui grid container">
 
-            {hogData.map}( => {<HogTile />})}
-            })
+            {hogData.map(hog => <HogTile key={hog.id} data={hog} data={hog} />)}
+
         </div>
 
 
