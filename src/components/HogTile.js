@@ -1,3 +1,10 @@
-import react from "react";
+import React from 'react'
 
-export default HogCard;
+const HogTile = () => {
+    return (
+        <div>
+            tile place holder
+        </div>
+    )
+}
+export default HogTile
